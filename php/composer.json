@@ -1,0 +1,6 @@
+{
+    "require": {
+        "crodas/influx-php": "*",
+        "influxdb/influxdb-php": "^1.15"
+    }
+}

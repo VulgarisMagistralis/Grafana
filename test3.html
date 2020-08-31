@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<meta charset='utf-8' />
+   	<head profile="http://gmpg.org/xfn/11">
+    	<link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"/>      
+      	<script type='text/javascript' src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
+   	<body>
+      	<div id="map" style="height: 440px; border: 1px solid #AAA;"></div>
+		<div id="container" style="width: 50%; height:97%; float:right;"> </div> 
+		<div id ="test1"></div>
+		<script>
+			//file
+			//?
+			//EOF
+	   		var map = L.map( 'map', {
+    			center: [45.06, 7.65],
+    			minZoom: 2,
+    			zoom: 15});
+   			L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    			subdomains: ['a','b','c']
+			}).addTo( map );
+			//mark coordinates to map
+			var marker = L.marker([51.5, -0.09]).addTo(map);
+			var polygon = L.polyline([
+    			[45.060109,7.654689],
+   				[45.060275, 7.654834],
+   				[45.060113,7.654690]
+			]).addTo(map);
+	   	</script>
+		
+   </body>
+</html>

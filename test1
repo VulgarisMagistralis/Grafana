@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<link rel="stylesheet" href="/home/path/Downloads/leaflet/leaflet.css" />
+	<script src="/home/path/Downloads/leaflet/leaflet.js"></script>
+	<div id="map_3907">
+		<style type="text/css">
+		map_3907 { height: 200px; }
+		var mymap = L.map('map_3907').setview([41.505, 7.5], 13)
+		</style>
+	</div>
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

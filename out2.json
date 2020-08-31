@@ -1,0 +1,83 @@
+{
+    "cam.CAM_element": {
+        "cam.header_element": {
+            "cam.protocolVersion": "1", 
+            "cam.messageID": "2", 
+            "cam.stationID": "3907"
+        }, 
+        "cam.cam_element": {
+            "cam.camParameters_element": {
+                "per.extension_bit": "0", 
+                "per.optional_field_bit": "0", 
+                "cam.basicContainer_element": {
+                    "cam.referencePosition_element": {
+                        "cam.longitude": "76548340", 
+                        "cam.positionConfidenceEllipse_element": {
+                            "cam.semiMajorConfidence": "4095", 
+                            "cam.semiMajorOrientation": "3601", 
+                            "cam.semiMinorConfidence": "4095"
+                        }, 
+                        "cam.latitude": "450602750", 
+                        "cam.altitude_element": {
+                            "per.enum_index": "15", 
+                            "cam.altitudeConfidence": "15", 
+                            "cam.altitudeValue": "250"
+                        }
+                    }, 
+                    "cam.stationType": "5", 
+                    "per.extension_bit": "0"
+                }, 
+                "cam.highFrequencyContainer_tree": {
+                    "cam.basicVehicleContainerHighFrequency_element": {
+                        "cam.lanePosition": "-1", 
+                        "cam.heading_element": {
+                            "cam.headingConfidence": "127", 
+                            "cam.headingValue": "352"
+                        }, 
+                        "cam.accelerationControl": "c0", 
+                        "cam.driveDirection": "2", 
+                        "per.extension_present_bit": "0", 
+                        "cam.yawRate_element": {
+                            "cam.yawRateConfidence": "14", 
+                            "per.enum_index": "14", 
+                            "per.enum_index_tree": {
+                                "_ws.expert": {
+                                    "_ws.expert.message": "Size constraint: value too big: 14 (0 .. 8)", 
+                                    "_ws.expert.group": "150994944", 
+                                    "_ws.expert.severity": "6291456", 
+                                    "per.size_constraint.value": ""
+                                }
+                            }, 
+                            "cam.yawRateValue": "18433"
+                        }, 
+                        "cam.curvature_element": {
+                            "per.enum_index": "4", 
+                            "cam.curvatureConfidence": "4", 
+                            "cam.curvatureValue": "-86"
+                        }, 
+                        "per.optional_field_bit": "0", 
+                        "cam.longitudinalAcceleration_element": {
+                            "cam.longitudinalAccelerationValue": "161", 
+                            "cam.longitudinalAccelerationConfidence": "102"
+                        }, 
+                        "per.enum_index": "1", 
+                        "cam.curvatureCalculationMode": "1", 
+                        "cam.speed_element": {
+                            "cam.speedConfidence": "127", 
+                            "cam.speedValue": "16383"
+                        }, 
+                        "cam.vehicleLength_element": {
+                            "per.enum_index": "4", 
+                            "cam.vehicleLengthValue": "42", 
+                            "cam.vehicleLengthConfidenceIndication": "4"
+                        }, 
+                        "cam.vehicleWidth": "20"
+                    }
+                }, 
+                "per.choice_index": "0", 
+                "cam.highFrequencyContainer": "0"
+            }, 
+            "cam.generationDeltaTime": "2905"
+        }
+    }
+}

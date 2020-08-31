@@ -1,0 +1,376 @@
+  {
+    "_index": "packets-2019-08-06",
+    "_type": "pcap_file",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "23",
+          "frame.time": "Mar 22, 2019 17:15:17.418057000 CET",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1553271317.418057000",
+          "frame.time_delta": "0.000000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.000000000",
+          "frame.number": "1",
+          "frame.len": "161",
+          "frame.cap_len": "161",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "radiotap:wlan_radio:wlan:llc:etsi_its_geonetworking:btp:cam"
+        },
+        "radiotap": {
+          "radiotap.version": "0",
+          "radiotap.pad": "0",
+          "radiotap.length": "38",
+          "radiotap.present": {
+            "radiotap.present.word": "0xa000402f",
+            "radiotap.present.word_tree": {
+              "radiotap.present.tsft": "1",
+              "radiotap.present.flags": "1",
+              "radiotap.present.rate": "1",
+              "radiotap.present.channel": "1",
+              "radiotap.present.fhss": "0",
+              "radiotap.present.dbm_antsignal": "1",
+              "radiotap.present.dbm_antnoise": "0",
+              "radiotap.present.lock_quality": "0",
+              "radiotap.present.tx_attenuation": "0",
+              "radiotap.present.db_tx_attenuation": "0",
+              "radiotap.present.dbm_tx_power": "0",
+              "radiotap.present.antenna": "0",
+              "radiotap.present.db_antsignal": "0",
+              "radiotap.present.db_antnoise": "0",
+              "radiotap.present.rxflags": "1",
+              "radiotap.present.xchannel": "0",
+              "radiotap.present.mcs": "0",
+              "radiotap.present.ampdu": "0",
+              "radiotap.present.vht": "0",
+              "radiotap.present.timestamp": "0",
+              "radiotap.present.he": "0",
+              "radiotap.present.he_mu": "0",
+              "radiotap.present.0_length.psdu": "0",
+              "radiotap.present.l_sig": "0",
+              "radiotap.present.reserved": "0x00000000",
+              "radiotap.present.rtap_ns": "1",
+              "radiotap.present.vendor_ns": "0",
+              "radiotap.present.ext": "1"
+            },
+            "radiotap.present.word": "0xa0000820",
+            "radiotap.present.word_tree": {
+              "radiotap.present.tsft": "0",
+              "radiotap.present.flags": "0",
+              "radiotap.present.rate": "0",
+              "radiotap.present.channel": "0",
+              "radiotap.present.fhss": "0",
+              "radiotap.present.dbm_antsignal": "1",
+              "radiotap.present.dbm_antnoise": "0",
+              "radiotap.present.lock_quality": "0",
+              "radiotap.present.tx_attenuation": "0",
+              "radiotap.present.db_tx_attenuation": "0",
+              "radiotap.present.dbm_tx_power": "0",
+              "radiotap.present.antenna": "1",
+              "radiotap.present.db_antsignal": "0",
+              "radiotap.present.db_antnoise": "0",
+              "radiotap.present.rxflags": "0",
+              "radiotap.present.xchannel": "0",
+              "radiotap.present.mcs": "0",
+              "radiotap.present.ampdu": "0",
+              "radiotap.present.vht": "0",
+              "radiotap.present.timestamp": "0",
+              "radiotap.present.he": "0",
+              "radiotap.present.he_mu": "0",
+              "radiotap.present.0_length.psdu": "0",
+              "radiotap.present.l_sig": "0",
+              "radiotap.present.reserved": "0x00000000",
+              "radiotap.present.rtap_ns": "1",
+              "radiotap.present.vendor_ns": "0",
+              "radiotap.present.ext": "1"
+            },
+            "radiotap.present.word": "0x00000820",
+            "radiotap.present.word_tree": {
+              "radiotap.present.tsft": "0",
+              "radiotap.present.flags": "0",
+              "radiotap.present.rate": "0",
+              "radiotap.present.channel": "0",
+              "radiotap.present.fhss": "0",
+              "radiotap.present.dbm_antsignal": "1",
+              "radiotap.present.dbm_antnoise": "0",
+              "radiotap.present.lock_quality": "0",
+              "radiotap.present.tx_attenuation": "0",
+              "radiotap.present.db_tx_attenuation": "0",
+              "radiotap.present.dbm_tx_power": "0",
+              "radiotap.present.antenna": "1",
+              "radiotap.present.db_antsignal": "0",
+              "radiotap.present.db_antnoise": "0",
+              "radiotap.present.rxflags": "0",
+              "radiotap.present.xchannel": "0",
+              "radiotap.present.mcs": "0",
+              "radiotap.present.ampdu": "0",
+              "radiotap.present.vht": "0",
+              "radiotap.present.timestamp": "0",
+              "radiotap.present.he": "0",
+              "radiotap.present.he_mu": "0",
+              "radiotap.present.0_length.psdu": "0",
+              "radiotap.present.l_sig": "0",
+              "radiotap.present.reserved": "0x00000000",
+              "radiotap.present.rtap_ns": "0",
+              "radiotap.present.vendor_ns": "0",
+              "radiotap.present.ext": "0"
+            }
+          },
+          "radiotap.mactime": "1297044173",
+          "radiotap.flags": "0x00000010",
+          "radiotap.flags_tree": {
+            "radiotap.flags.cfp": "0",
+            "radiotap.flags.preamble": "0",
+            "radiotap.flags.wep": "0",
+            "radiotap.flags.frag": "0",
+            "radiotap.flags.fcs": "1",
+            "radiotap.flags.datapad": "0",
+            "radiotap.flags.badfcs": "0",
+            "radiotap.flags.shortgi": "0"
+          },
+          "radiotap.datarate": "3",
+          "radiotap.channel.freq": "5900",
+          "radiotap.channel.flags": "0x00004140",
+          "radiotap.channel.flags_tree": {
+            "radiotap.channel.flags.turbo": "0",
+            "radiotap.channel.flags.cck": "0",
+            "radiotap.channel.flags.ofdm": "1",
+            "radiotap.channel.flags.2ghz": "0",
+            "radiotap.channel.flags.5ghz": "1",
+            "radiotap.channel.flags.passive": "0",
+            "radiotap.channel.flags.dynamic": "0",
+            "radiotap.channel.flags.gfsk": "0",
+            "radiotap.channel.flags.gsm": "0",
+            "radiotap.channel.flags.sturbo": "0",
+            "radiotap.channel.flags.half": "1",
+            "radiotap.channel.flags.quarter": "0"
+          },
+          "radiotap.dbm_antsignal": "-79",
+          "radiotap.rxflags": "0x00000000",
+          "radiotap.rxflags_tree": {
+            "radiotap.rxflags.badplcp": "0"
+          },
+          "radiotap.dbm_antsignal": "-79",
+          "radiotap.antenna": "0",
+          "radiotap.dbm_antsignal": "-93",
+          "radiotap.antenna": "1"
+        },
+        "wlan_radio": {
+          "wlan_radio.data_rate": "3",
+          "wlan_radio.channel": "180",
+          "wlan_radio.frequency": "5900",
+          "wlan_radio.signal_dbm": "-93",
+          "wlan_radio.timestamp": "1297044173"
+        },
+        "wlan": {
+          "wlan.fc.type_subtype": "32",
+          "wlan.fc": "0x00000800",
+          "wlan.fc_tree": {
+            "wlan.fc.version": "0",
+            "wlan.fc.type": "2",
+            "wlan.fc.subtype": "0",
+            "wlan.flags": "0x00000000",
+            "wlan.flags_tree": {
+              "wlan.fc.ds": "0x00000000",
+              "wlan.fc.tods": "0",
+              "wlan.fc.fromds": "0",
+              "wlan.fc.frag": "0",
+              "wlan.fc.retry": "0",
+              "wlan.fc.pwrmgt": "0",
+              "wlan.fc.moredata": "0",
+              "wlan.fc.protected": "0",
+              "wlan.fc.order": "0"
+            }
+          },
+          "wlan.duration": "0",
+          "wlan.ra": "ff:ff:ff:ff:ff:ff",
+          "wlan.ra_resolved": "Broadcast",
+          "wlan.addr": "ff:ff:ff:ff:ff:ff",
+          "wlan.addr_resolved": "Broadcast",
+          "wlan.ta": "24:ec:99:2f:a9:22",
+          "wlan.ta_resolved": "AskeyCom_2f:a9:22",
+          "wlan.addr": "24:ec:99:2f:a9:22",
+          "wlan.addr_resolved": "AskeyCom_2f:a9:22",
+          "wlan.da": "ff:ff:ff:ff:ff:ff",
+          "wlan.da_resolved": "Broadcast",
+          "wlan.sa": "24:ec:99:2f:a9:22",
+          "wlan.sa_resolved": "AskeyCom_2f:a9:22",
+          "wlan.bssid": "ff:ff:ff:ff:ff:ff",
+          "wlan.bssid_resolved": "Broadcast",
+          "wlan.frag": "0",
+          "wlan.seq": "3827",
+          "wlan.addr": "ff:ff:ff:ff:ff:ff",
+          "wlan.addr_resolved": "Broadcast",
+          "wlan.fcs": "0xdf985327",
+          "wlan.fcs.status": "2"
+        },
+        "llc": {
+          "llc.dsap": "0x000000aa",
+          "llc.dsap_tree": {
+            "llc.dsap.sap": "85",
+            "llc.dsap.ig": "0"
+          },
+          "llc.ssap": "0x000000aa",
+          "llc.ssap_tree": {
+            "llc.ssap.sap": "85",
+            "llc.ssap.cr": "0"
+          },
+          "llc.control": "0x00000003",
+          "llc.control_tree": {
+            "llc.control.u_modifier_cmd": "0x00000000",
+            "llc.control.ftype": "0x00000003"
+          },
+          "llc.oui": "0",
+          "llc.type": "0x00008947"
+        },
+        "etsi_its_geonetworking": {
+          "gn.bh": {
+            "gn.version": "0",
+            "gn.bnh": "1",
+            "gn.reserved": "0",
+            "gn.lt": {
+              "gn.lt.multiplier": "6",
+              "gn.lt.base": "2"
+            },
+            "gn.hl": "1"
+          },
+          "gn.ch": {
+            "gn.nh": "2",
+            "gn.reserved0": "0",
+            "gn.ht": "5",
+            "gn.hst": "0",
+            "gn.tc": "0x00000002",
+            "gn.tc_tree": {
+              "gn.tc.scf": "0",
+              "gn.tc.chanoff": "0",
+              "gn.tc.tcid": "2"
+            },
+            "gn.flags": "0x00000080",
+            "gn.flags_tree": {
+              "gn.flags.mobile": "1",
+              "gn.flags.reserved0": "0x00000000"
+            },
+            "gn.pl": "47",
+            "gn.mhl": "1",
+            "gn.reserved1": "0"
+          },
+          "gn.tsb": {
+            "gn.sopv": {
+              "gn.sopv.addr": "0x140024ec992fa922",
+              "gn.sopv.addr_tree": {
+                "gn.sopv.addr.m": "0",
+                "gn.sopv.addr.st": "5",
+                "gn.sopv.addr.ssc": "0",
+                "gn.sopv.addr.mid": "24:ec:99:2f:a9:22"
+              },
+              "gn.sopv.tst": "3614746928",
+              "gn.sopv.lat": "450601090",
+              "gn.sopv.long": "76546890",
+              "gn.sopv.pai": "0",
+              "gn.sopv.speed": "388",
+              "gn.sopv.heading": "257"
+            },
+            "gn.tsb.reserved": ""
+          },
+          "btp": {
+            "btp.dport": "2001",
+            "btp.dportinfo": "0"
+          },
+          "cam": {
+            "cam.CAM_element": {
+              "cam.header_element": {
+                "cam.protocolVersion": "1",
+                "cam.messageID": "2",
+                "cam.stationID": "3904"
+              },
+              "cam.cam_element": {
+                "cam.generationDeltaTime": "2249",
+                "cam.camParameters_element": {
+                  "per.extension_bit": "0",
+                  "per.optional_field_bit": "0",
+                  "per.optional_field_bit": "0",
+                  "cam.basicContainer_element": {
+                    "per.extension_bit": "0",
+                    "cam.stationType": "5",
+                    "cam.referencePosition_element": {
+                      "cam.latitude": "450601090",
+                      "cam.longitude": "76546890",
+                      "cam.positionConfidenceEllipse_element": {
+                        "cam.semiMajorConfidence": "4095",
+                        "cam.semiMinorConfidence": "4095",
+                        "cam.semiMajorOrientation": "3601"
+                      },
+                      "cam.altitude_element": {
+                        "cam.altitudeValue": "252",
+                        "per.enum_index": "15",
+                        "cam.altitudeConfidence": "15"
+                      }
+                    }
+                  },
+                  "per.extension_bit": "0",
+                  "per.choice_index": "0",
+                  "cam.highFrequencyContainer": "0",
+                  "cam.highFrequencyContainer_tree": {
+                    "cam.basicVehicleContainerHighFrequency_element": {
+                      "per.optional_field_bit": "1",
+                      "per.optional_field_bit": "1",
+                      "per.optional_field_bit": "0",
+                      "per.optional_field_bit": "0",
+                      "per.optional_field_bit": "0",
+                      "per.optional_field_bit": "0",
+                      "per.optional_field_bit": "0",
+                      "cam.heading_element": {
+                        "cam.headingValue": "257",
+                        "cam.headingConfidence": "127"
+                      },
+                      "cam.speed_element": {
+                        "cam.speedValue": "388",
+                        "cam.speedConfidence": "127"
+                      },
+                      "per.enum_index": "2",
+                      "cam.driveDirection": "2",
+                      "cam.vehicleLength_element": {
+                        "cam.vehicleLengthValue": "42",
+                        "per.enum_index": "4",
+                        "cam.vehicleLengthConfidenceIndication": "4"
+                      },
+                      "cam.vehicleWidth": "20",
+                      "cam.longitudinalAcceleration_element": {
+                        "cam.longitudinalAccelerationValue": "161",
+                        "cam.longitudinalAccelerationConfidence": "102"
+                      },
+                      "cam.curvature_element": {
+                        "cam.curvatureValue": "-86",
+                        "per.enum_index": "4",
+                        "cam.curvatureConfidence": "4"
+                      },
+                      "per.extension_present_bit": "0",
+                      "per.enum_index": "1",
+                      "cam.curvatureCalculationMode": "1",
+                      "cam.yawRate_element": {
+                        "cam.yawRateValue": "18433",
+                        "per.enum_index": "14",
+                        "per.enum_index_tree": {
+                          "_ws.expert": {
+                            "per.size_constraint.value": "",
+                            "_ws.expert.message": "Size constraint: value too big: 14 (0 .. 8)",
+                            "_ws.expert.severity": "6291456",
+                            "_ws.expert.group": "150994944"
+                          }
+                        },
+                        "cam.yawRateConfidence": "14"
+                      },
+                      "cam.accelerationControl": "c0",
+                      "cam.lanePosition": "-1"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
